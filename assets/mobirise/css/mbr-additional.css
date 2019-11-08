@@ -1244,13 +1244,20 @@ section.lazy-placeholder:after {
 }
 .cid-qKSeIL708B .mbr-text {
   text-align: left;
-  color: #333333;
+  color: #ffffff;
+}
+.cid-qKSeIL708B H1 {
+  color: #ffffff;
+}
+.cid-qKSeIL708B .box-item-text,
+.cid-qKSeIL708B .mbr-section-btn {
+  color: #444444;
 }
 .cid-qKSfgPX2iU {
   padding-top: 40px;
   padding-bottom: 90px;
-  background-color: #85a6d8;
-  background: linear-gradient(90deg, #85a6d8, #69a6cc);
+  background-color: #188ef4;
+  background: linear-gradient(90deg, #188ef4, #04367c);
 }
 .cid-qKSfgPX2iU .mbr-overlay {
   background: linear-gradient(90deg, #21b968, #1ec5bf);
@@ -1320,7 +1327,10 @@ section.lazy-placeholder:after {
 }
 .cid-qKSfgPX2iU .mbr-text,
 .cid-qKSfgPX2iU .mbr-section-btn {
-  color: #000000;
+  color: #ffffff;
+}
+.cid-qKSfgPX2iU .mbr-section-title {
+  color: #ffffff;
 }
 .cid-rzB8msI2zJ {
   padding-top: 45px;
@@ -1455,7 +1465,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-qKSj0s9f9b .logo-subtitle {
-  color: #000000;
+  color: #ffffff;
 }
 .cid-qKSj0s9f9b .media-wrap {
   padding-bottom: 2rem;
@@ -1536,13 +1546,22 @@ section.lazy-placeholder:after {
   content: '\e966';
   padding-right: .5rem;
 }
+.cid-qKSj0s9f9b .copyright > p {
+  color: #ffffff;
+}
+.cid-qKSj0s9f9b .column-title {
+  color: #ffffff;
+}
+.cid-qKSj0s9f9b P {
+  color: #ffffff;
+}
 .cid-rGcTVogBmo {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #277fb0;
 }
 .cid-rGcTVogBmo .mbr-text {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-rzB7jyCAAp .dropdown-item:before {
   font-family: MobiriseIcons !important;
@@ -1899,7 +1918,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-qKSj0s9f9b .logo-subtitle {
-  color: #000000;
+  color: #ffffff;
 }
 .cid-qKSj0s9f9b .media-wrap {
   padding-bottom: 2rem;
@@ -1979,4 +1998,13 @@ section.lazy-placeholder:after {
   font-family: MobiriseIcons !important;
   content: '\e966';
   padding-right: .5rem;
+}
+.cid-qKSj0s9f9b .copyright > p {
+  color: #ffffff;
+}
+.cid-qKSj0s9f9b .column-title {
+  color: #ffffff;
+}
+.cid-qKSj0s9f9b P {
+  color: #ffffff;
 }
