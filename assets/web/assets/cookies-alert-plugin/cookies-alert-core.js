@@ -191,7 +191,7 @@
 			html += '-khtml-opacity: .' + settings.backgroundOpacity + '; -moz-opacity: .' + settings.backgroundOpacity + ';';
 			html += 'color:' + settings.fontColor + ';';
 			html += 'text-align:center;z-index:1000;">';
-			html += '<div class="cookieText" style="position:relative;height:auto;width:90%;padding:10px;margin-left:auto;margin-right:auto;">';
+			html += '<div class="cookieText display-7" style="position:relative;height:auto;width:90%;padding:10px;margin-left:auto;margin-right:auto; font-size:inherit;">';
 
 			if(!settings.message) {
 				if(settings.explicitConsent) {
@@ -218,7 +218,7 @@
 			} else {
 				// Implied consent disclosure
 				html += scriptsDisclosure;
-				html += '<input style="margin-left:10px;' + (settings.colorButton ? ' background-color:' + settings.colorButton + ' !important;' : '') + (self === top ? 'border-color:' + settings.colorButton + ' !important;' : '') + '" type="submit" name="impliedsubmit" id="impliedsubmit" class="btn btn-sm btn-primary" value="' + settings.textButton + '"/></div>';
+				html += '<input style="display: inline-block; margin-left:10px; font-size:inherit;' + (settings.colorButton ? ' background-color:' + settings.colorButton + ' !important;' : '') + (settings.colorButton && self === top ? 'border-color:' + settings.colorButton + ' !important;' : '') + '" type="submit" name="impliedsubmit" id="impliedsubmit" class="btn btn-sm btn-primary display-7" value="' + settings.textButton + '"/></div>';
 			}
 			html += '</div></div>';
 
