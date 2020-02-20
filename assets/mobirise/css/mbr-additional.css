@@ -30,17 +30,17 @@ body {
 }
 .display-5 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 2.4rem;
 }
 .display-7 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -64,9 +64,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -585,10 +585,10 @@ a:hover {
 }
 .form-control {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 blockquote {
   border-color: #ff4f7b;
@@ -1903,8 +1903,8 @@ section.lazy-placeholder:after {
   }
 }
 .cid-qKSj0s9f9b {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   background-image: url("../../../assets/images/background7-1920x1080.jpg");
 }
 @media (max-width: 767px) {
