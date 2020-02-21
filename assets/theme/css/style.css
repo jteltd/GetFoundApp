@@ -486,6 +486,7 @@ animation: gradient-animation 4s infinite alternate;
 @media (max-width: 767px) {
   .menu .navbar-collapse {
     max-height: 60vh; } }
+>>>>>>> fix-components
 @media (min-width: 768px) and (max-width: 991px) {
   .menu .navbar-toggleable-sm .navbar-nav {
     display: -webkit-box;
